@@ -2,6 +2,7 @@
     <div>
         home
 
+        <div>hello</div>
         <div class="h-600px">test</div>
     </div>
 </template>
