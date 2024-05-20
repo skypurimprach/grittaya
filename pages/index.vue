@@ -1,8 +1,5 @@
 <template>
-    <div>
-        home
-        <div class="h-600px">test</div>
-    </div>
+    <div>home</div>
 </template>
 
 <script setup lang="ts"></script>
