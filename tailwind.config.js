@@ -2,16 +2,14 @@
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
-    './layouts/**/*.{vue,js}',
-    './pages/**/*.{vue,js}',
+    "./layouts/**/*.vue",
+    "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
-    './nuxt.config.{js,ts}',
-    './node_modules/flowbite/**/*.js'
   ],
   theme: {
     extend: {},
   },
-  plugins: [require('daisyui'),('flowbite/plugin')],
+  plugins: [require('daisyui'),],
 }
