@@ -4,11 +4,7 @@
     >
         <aside class="items-center grid-flow-col">
             <nav class="nav grid grid-flow-col gap-4" style="text-align: right">
-                <img
-                    src="C:\Users\WINDOWS 11\Desktop\internship\internship\images\gritt.png"
-                    width="60"
-                    height="60"
-                />
+                <img src="/images/gritt.png" width="60" height="60" />
             </nav>
         </aside>
         <h2>

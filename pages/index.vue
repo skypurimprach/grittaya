@@ -1,10 +1,19 @@
 <template>
-    <div>
-        home
-        <div class="h-600px">test</div>
-    </div>
+    <body>
+        Slide show
+        <div>
+            <VideoPlayer />
+        </div>
+        Content
+    </body>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import VideoPlayer from '@/components/VideoPlayer.vue'
+</script>
 
-<style scoped></style>
+<style scoped>
+body {
+    background-color: white;
+}
+</style>
