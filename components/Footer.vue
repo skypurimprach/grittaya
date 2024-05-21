@@ -1,12 +1,12 @@
 <template>
     <header class="footer flex p-1 bg-[#0f4722] text-white">
         <aside class="items">
-            <nav class="nav gap-5">
+            <nav class="nav gap-4">
                 <img
-                    class="img"
+                    class="img ml-6"
                     src="C:\Users\WINDOWS 11\Desktop\internship\internship\images\gritt.png"
-                    width="100"
-                    height="100"
+                    width="80"
+                    height="80"
                 />
                 <h3>
                     <br />
@@ -18,7 +18,7 @@
                     >
                 </h3>
             </nav>
-            <h2 class="text-xs">© 2024 Grittaya. All rights reserved.</h2>
+            <h2 class="text-xs ml-6">© 2024 Grittaya. All rights reserved.</h2>
         </aside>
 
         <nav

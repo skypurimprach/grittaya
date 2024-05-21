@@ -6,6 +6,7 @@
                 style="text-align: right"
             >
                 <img
+                    class="ml-6"
                     src="C:\Users\WINDOWS 11\Desktop\grittaya_project\images\gritt lay.png"
                     width="130"
                     height="130"

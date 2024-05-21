@@ -1,7 +1,8 @@
 <template>
     <div>home</div>
+    <contactmain></contactmain>
 </template>
 
-<script setup lang="ts"></script>
+<script setup></script>
 
 <style scoped></style>
