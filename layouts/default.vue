@@ -2,6 +2,7 @@
     <div>
         <Navbar></Navbar>
         <slot> </slot>
+        <contactmain></contactmain>
         <Footer></Footer>
     </div>
 </template>
