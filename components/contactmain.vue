@@ -1,5 +1,5 @@
 <template>
-    <div class="h-40">
+    <div class="h-32">
         <h1 class="text-center text-lg">
             สนใจสั่งซื้อสินค้ากฤตธยา และปรึกษาเรื่องงานบุญ
             หรือจัดพิธีบวงสรวงต่างๆ

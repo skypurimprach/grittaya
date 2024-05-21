@@ -2,6 +2,7 @@
     <div>
         <Navbar></Navbar>
         <slot> </slot>
+        <Blog></Blog>
         <contactmain></contactmain>
         <Footer></Footer>
     </div>

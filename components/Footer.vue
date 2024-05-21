@@ -18,7 +18,7 @@
                     >
                 </h3>
             </nav>
-            <h2 class="font-light">© 2024 Grittaya. All rights reserved.</h2>
+            <h2 class="text-xs">© 2024 Grittaya. All rights reserved.</h2>
         </aside>
 
         <nav
