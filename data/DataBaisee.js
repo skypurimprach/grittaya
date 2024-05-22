@@ -1,8 +1,6 @@
-// contentData.js
-
-const contentArray = [
+const baisee = [
     { 
-      title: 'แบบที่ 1', 
+      title: 'บายศรีแบบที่ 1', 
       content: 'บายศรีแบบที่1', 
       image: 'C:\Users\WINDOWS 11\Desktop\grittaya_project\images\datacontent1.jpg' 
     },
@@ -12,15 +10,15 @@ const contentArray = [
       image: 'C:\Users\WINDOWS 11\Desktop\grittaya_project\images\datacontent2.jpg' 
     },
     { 
-      title: 'แบบที่ 3', 
+      title: 'บายศรีแบบที่ 3', 
       content: 'บายศรีแบบที่3', 
       image: 'C:\Users\WINDOWS 11\Desktop\grittaya_project\images\datacontent3.jpg' 
     },
   ];
   
-  export const getContentData = () => {
+  export const getDataBaisee = () => {
     return {
-      contentArray: contentArray
+      baisee: baisee
     };
   };
   
