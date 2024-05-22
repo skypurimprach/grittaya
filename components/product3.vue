@@ -3,16 +3,12 @@
     <div
         class="text-white bg-[#0f4722] text-center text-xl w-24 h-7 rounded-lg ml-32"
     >
-        บายศรี
+        สังฆทาน
     </div>
     <div
         class="card-container flex flex-wrap gap-5 justify-center bg-[#A2C3AD] rounded-3xl mt-5 p-5 max-w-7xl m-auto relative"
     >
-        <div
-            class="card w-80"
-            v-for="(item, index) in data.baisee"
-            :key="index"
-        >
+        <div class="card w-80" v-for="(item, index) in data.skt" :key="index">
             <figure>
                 <img :src="item.image" />
             </figure>
@@ -38,10 +34,10 @@
 </template>
 
 <script setup lang="ts">
-import { getDataBaisee } from '~/data/DataBaisee.js'
-const { baisee } = getDataBaisee()
+import { getDataSKT } from '~/data/DataSKT.js'
+const { skt } = getDataSKT()
 const data = {
-    baisee,
+    skt,
 }
 </script>
 
