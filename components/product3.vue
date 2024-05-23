@@ -1,7 +1,7 @@
 <template>
     <br />
     <div
-        class="text-white bg-[#0f4722] text-center text-3xl font-semibold w-[182px] h-[40px] rounded-full ml-32"
+        class="text-white bg-[#0f4722] text-center text-3xl font-semibold w-[182px] h-[40px] rounded-full ml-56"
     >
         สังฆทาน
     </div>

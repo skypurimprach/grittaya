@@ -1,7 +1,13 @@
 <template>
     <br />
+    <p class="Content text-center text-[#0f4722] text-3xl font-bold mt-10">
+        เครื่องบวงสรวงและงานฝีกมือเอกลักษณ์ไทย
+    </p>
+    <svg class="stroke-2 stroke-[#0f4722] h-3 w-full">
+        <line x1="0" y1="10" x2="100%" y2="10" />
+    </svg>
     <div
-        class="text-white bg-[#0f4722] text-center text-3xl font-semibold w-[182px] h-[40px] rounded-full ml-32"
+        class="text-white bg-[#0f4722] text-center text-3xl font-semibold w-[182px] h-[40px] rounded-full ml-56 mt-10"
     >
         พวงมาลัย
     </div>
