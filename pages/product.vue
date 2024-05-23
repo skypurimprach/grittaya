@@ -1,7 +1,13 @@
 <template>
-    <div>product</div>
+    <body>
+        <ProductDetail />
+    </body>
 </template>
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+body {
+    background-color: white;
+}
+</style>

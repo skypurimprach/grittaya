@@ -1,7 +1,13 @@
 <template>
     <body>
         <div class="video-box">
-            <video class="w-full h-auto max-w-full" autoplay muted controls>
+            <video
+                ref="video"
+                class="w-full h-auto max-w-full"
+                autoplay
+                muted
+                controls
+            >
                 <source src="/src/video.mp4" type="video/mp4" />
             </video>
         </div>
@@ -19,7 +25,23 @@
     </body>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+
+const video = ref<HTMLVideoElement | null>(null)
+
+onMounted(() => {
+    if (video.value) {
+        const unmuteVideo = () => {
+            video.value!.muted = false
+            video.value!.play()
+            document.removeEventListener('click', unmuteVideo)
+        }
+
+        document.addEventListener('click', unmuteVideo)
+    }
+})
+</script>
 
 <style scoped>
 p {
@@ -28,7 +50,7 @@ p {
     font-style: normal;
     color: #f7ce66;
     padding: 10px;
-    margin-top: px;
+    margin-top: 0;
 }
 
 .video-box {

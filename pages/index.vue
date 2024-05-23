@@ -1,16 +1,17 @@
 <template>
     <body>
-        Slide show
+        <ImageSlide />
         <div>
             <VideoPlayer />
         </div>
-        Content
+        <br />
+        <CardShow />
+        <CardContent />
+        <br />
     </body>
 </template>
 
-<script setup lang="ts">
-import VideoPlayer from '@/components/VideoPlayer.vue'
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
 body {

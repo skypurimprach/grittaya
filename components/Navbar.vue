@@ -1,28 +1,37 @@
 <template>
-    <header class="header">
-        <div class="logo">กฤตธยา</div>
-        <nav class="nav">
-            <nuxt-link class="nav-link" exact-active-class="active-link" to="/"
+    <header class="header flex p-1 bg-[#0f4722] text-white">
+        <aside class="items-center grid-flow-col">
+            <nav class="nav grid grid-flow-col gap-4" style="text-align: right">
+                <img src="/images/gritt lay.png" width="130" height="130" />
+            </nav>
+        </aside>
+        <nav class="nav gap-4 flex" style="position: absolute; right: 0">
+            <nuxt-link
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
+                exact-active-class="active-link"
+                to="/"
                 >หน้าแรก</nuxt-link
             >
             <nuxt-link
-                class="nav-link"
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
                 exact-active-class="active-link"
                 to="/product"
                 >สินค้าและบริการ</nuxt-link
             >
             <nuxt-link
-                class="nav-link"
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
                 exact-active-class="active-link"
                 to="/aboutus"
                 >เกี่ยวกับเรา</nuxt-link
             >
             <nuxt-link
-                class="nav-link"
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
                 exact-active-class="active-link"
                 to="/contactus"
                 >ติดต่อเรา</nuxt-link
             >
+            <h1></h1>
+            <h1></h1>
         </nav>
     </header>
 </template>
@@ -30,42 +39,9 @@
 <script setup lang="ts"></script>
 
 <style>
-.header,
-.nav-link {
-    font-family: 'Athiti', sans-serif;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #0f4722;
-    color: white;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .nav {
     display: flex;
-    gap: 1rem;
 }
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.nav-link:hover {
-    color: #eddf82;
-}
-
 .active-link {
     color: #eddf82;
 }

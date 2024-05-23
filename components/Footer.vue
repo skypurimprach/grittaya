@@ -1,38 +1,55 @@
 <template>
-    <header
-        class="footer flex p-1 bg-[#0f4722] text-white border rounded-t-[30px]"
-    >
-        <aside class="items-center grid-flow-col">
-            <nav class="nav grid grid-flow-col gap-4" style="text-align: right">
-                <img src="\images\gritt.png" width="60" height="60" />
+    <header class="footer flex p-1 bg-[#0f4722] text-white">
+        <aside class="items">
+            <nav class="nav gap-5">
+                <img
+                    class="img"
+                    src="\images\gritt.png"
+                    width="100"
+                    height="100"
+                />
+                <h3>
+                    <br />
+                    ที่อยู่
+                    <br />88/8 หมู่ 12, ตำบลศิลา อำเภอเมืองขอนแก่น
+                    <br />จังหวัดขอนแก่น 40000
+                </h3>
             </nav>
+            <h2 class="font-light">© 2024 Grittaya. All rights reserved.</h2>
         </aside>
-        <h2>
-            ที่อยู่<br />88/8 หมู่ 12, ตำบลศิลา อำเภอเมืองขอนแก่น
-            <br />จังหวัดขอนแก่น 40000
-        </h2>
-        <nav class="nav" style="position: absolute; right: 0">
-            <nuxt-link class="nav-link" exact-active-class="active-link" to="/"
+
+        <nav
+            class="nav justify-between gap-4"
+            style="position: absolute; right: 0"
+        >
+            <nuxt-link
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
+                exact-active-class="active-link text-[#eddf82]"
+                to="/"
                 >หน้าแรก</nuxt-link
             >
+            <br />
             <nuxt-link
-                class="nav-link"
-                exact-active-class="active-link"
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
+                exact-active-class="active-link text-[#eddf82]"
                 to="/product"
                 >สินค้าและบริการ</nuxt-link
             >
+            <br />
             <nuxt-link
-                class="nav-link"
-                exact-active-class="active-link"
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
+                exact-active-class="active-link text-[#eddf82]"
                 to="/aboutus"
                 >เกี่ยวกับเรา</nuxt-link
             >
+            <br />
             <nuxt-link
-                class="nav-link"
-                exact-active-class="active-link"
+                class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
+                exact-active-class="active-link text-[#eddf82]"
                 to="/contactus"
                 >ติดต่อเรา</nuxt-link
             >
+            <h1></h1>
         </nav>
     </header>
 </template>
@@ -40,35 +57,11 @@
 <script setup lang="ts"></script>
 
 <style>
-.footer,
-.nav-link {
-    font-family: 'Athiti', sans-serif;
-}
-
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
 }
-
-.nav {
-    align-items: right;
-    gap: 1rem;
-    justify-content: space-between;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.nav-link:hover {
-    color: #eddf82;
-}
-
-.active-link {
-    color: #eddf82;
+.items {
+    margin-left: 20px;
 }
 </style>
