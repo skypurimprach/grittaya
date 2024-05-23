@@ -1,10 +1,10 @@
 <template>
-    <header class="footer flex p-1 bg-[#0f4722] text-white">
+    <header class="footer flex p-1 bg-[#0f4722] text-white h-[141px]">
         <aside class="items">
             <nav class="nav gap-4">
                 <img
                     class="img ml-6"
-                    src="C:\Users\WINDOWS 11\Desktop\internship\internship\images\gritt.png"
+                    src="\images\gritt.png"
                     width="80"
                     height="80"
                 />
@@ -62,25 +62,25 @@
             <a href="https://www.facebook.com/grittaya8?locale=th_TH">
                 <img
                     class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                    src="C:\Users\WINDOWS 11\Desktop\grittaya_project\images\icon facebook black.png"
+                    src="/images/icon facebook black.png"
                 />
             </a>
             <a href="https://page.line.me/grittaya">
                 <img
                     class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                    src="C:\Users\WINDOWS 11\Desktop\grittaya_project\images\icon line black.webp"
+                    src="/images/icon line black.webp"
                 />
             </a>
             <a href="grittaya88@gmail.com">
                 <img
                     class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                    src="C:\Users\WINDOWS 11\Desktop\grittaya_project\images\icon gmail black.png"
+                    src="/images/icon gmail black.png"
                 />
             </a>
             <a href="https://www.tiktok.com/@grittaya_official">
                 <img
                     class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                    src="C:\Users\WINDOWS 11\Desktop\grittaya_project\images\icon tiktok black.png"
+                    src="/images/icon tiktok black.png"
                 />
             </a>
             <br />

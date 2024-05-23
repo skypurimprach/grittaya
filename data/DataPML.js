@@ -2,17 +2,17 @@ const pml = [
     { 
       title: 'พวงมาลัยแบบที่ 1', 
       content: 'แบบที่1', 
-      image: 'C:\Users\WINDOWS 11\Desktop\grittaya_project\images\datacontent1.jpg' 
+      image: '/images/pml1.png' 
     },
     {
       title: 'พวงมาลัยแบบที่ 2', 
       content: 'แบบที่ 2', 
-      image: 'C:\Users\WINDOWS 11\Desktop\grittaya_project\images\datacontent2.jpg' 
+      image: '/images/pml2.png' 
     },
     { 
       title: 'พวงมาลัยแบบที่ 3', 
       content: 'แบบที่3', 
-      image: 'C:\Users\WINDOWS 11\Desktop\grittaya_project\images\datacontent3.jpg' 
+      image: '/images/pml3.png'
     },
   ];
   
