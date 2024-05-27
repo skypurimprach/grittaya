@@ -8,11 +8,13 @@
         </svg>
     </div>
     <div class="flex justify-center mt-10">
-        <div class="grid-container flex gap-5">
+        <div
+            class="grid-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5"
+        >
             <div
                 v-for="(item, index) in service"
                 :key="index"
-                class="card w-[244px] h-[403px] max-w-sm p-6"
+                class="card w-[244px] h-[403px] max-w-sm p-6 bg-cover bg-center relative"
                 :style="{ 'background-image': `url('${item.image}')` }"
             >
                 <h5
