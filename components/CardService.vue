@@ -22,7 +22,8 @@
                 >
                     {{ item.title }}
                 </h5>
-                <p class="font-normal text-white">
+
+                <p class="text-white font-medium">
                     {{ item.description }}
                 </p>
             </div>

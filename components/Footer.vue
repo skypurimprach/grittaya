@@ -1,5 +1,5 @@
 <template>
-    <!-- <div></div>
+    <div></div>
     <div class="bg-[#0f4722] text-white w-full px-4 md:px-20">
         <div class="flex justify-between">
             <div class="flex gap-4 mt-2">
@@ -75,7 +75,7 @@
         <hr class="my-2 border-1 border-white" />
         <div class="text-xs ml-6">© 2024 Grittaya. All rights reserved.</div>
         <br />
-    </div> -->
+    </div>
     <div></div>
 </template>
 
