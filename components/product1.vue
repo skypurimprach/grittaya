@@ -24,11 +24,11 @@
                 <h2 class="card-title">{{ item.title }}</h2>
                 <p>{{ item.content }}</p>
                 <div class="card-actions justify-center">
-                    <button
+                    <nuxt-link
                         class="btn text-white text-sm bg-[#0f4722] btn-xs w-[180px] h-[35px] rounded-full"
+                        to="/detail"
+                        >ชมสินค้า</nuxt-link
                     >
-                        ชมสินค้า
-                    </button>
                 </div>
             </div>
         </div>

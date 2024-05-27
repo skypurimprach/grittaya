@@ -5,8 +5,8 @@
     <product2></product2>
     <product3></product3>
     <product4></product4>
-    <CardContent />
-    <contactmain></contactmain>
+    <CardContent></CardContent>
+    <CardContact></CardContact>
 </template>
 
 <script setup></script>
