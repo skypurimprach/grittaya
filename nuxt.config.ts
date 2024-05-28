@@ -1,13 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
-  modules: ['nuxt-swiper'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
     app: {
         head: {
             link: [
@@ -18,7 +11,7 @@ export default defineNuxtConfig({
             ],
         },
     },
-    modules: ['@pinia/nuxt'],
+    modules: ['@pinia/nuxt', 'nuxt-swiper'],
     devtools: { enabled: true },
     css: ['~/assets/css/main.css'],
     postcss: {
