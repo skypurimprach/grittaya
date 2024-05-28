@@ -1,12 +1,19 @@
 <template>
-    <div class="bg-[#0f4722] p-10"></div>
-    <div class="video-box">
-        <video class="w-full h-auto max-w-full" autoplay muted controls>
+    <div class="video-box w-full flex justify-center">
+        <video
+            ref="video"
+            class="w-full h-auto max-w-full"
+            autoplay
+            muted
+            controls
+        >
             <source src="/src/video.mp4" type="video/mp4" />
         </video>
     </div>
-    <p class="Title bg-[#0f4722] text-center font-semibold text-[#f7ce66] p-5">
-        กฤตธยา (Grittaya) รับจัดงานบวงสรวง งานราชพิธีจำหน่ายเครื่องสังฆทาน<br />
+    <p
+        class="Title text-lg color text-[#f7ce66] p-2.5 text-center bg-[#0f4722]"
+    >
+        กฤตธยา (Grittaya) รับจัดงานบวงสรวง งานราชพิธีจำหน่ายเครื่องสังฆทาน
         รับงานบายศรี และเครื่องสักการะแบบโบราณไทย ในโอกาสต่างๆ
     </p>
 </template>

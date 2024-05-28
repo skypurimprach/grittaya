@@ -1,4 +1,4 @@
-const services = [
+const service = [
     {
         title: 'ผู้ให้บริการจัดงานพิธี',
         description:
