@@ -2,9 +2,7 @@
     <p class="Content text-center text-[#0f4722] text-3xl font-bold mt-10">
         บทความที่น่าสนใจ
     </p>
-    <svg class="stroke-2 stroke-[#0f4722] h-3 w-full">
-        <line x1="0" y1="10" x2="100%" y2="10" />
-    </svg>
+    <hr class="my-2 border-2 border-[#0f4722]" />
     <div
         class="card-container grid flex-wrap gap-5 justify-center mt-5 p-5 sm:p-10 md:p-20 mx-auto relative max-w-[1076px]"
     >

@@ -1,23 +1,16 @@
 <template>
-    <div class="w-full flex mt-5 justify-start ml-52">
-        <div
-            class="flex justify-center text-white text-2xl bg-[#0f4722] btn-xs w-[20%] h-[35px] rounded-full"
-        >
-            น้ำอบไทย
-        </div>
-    </div>
-
-    <div
-        class="mt-5 sm:p-10 md:p-20 mx-auto relative max-w-[1076px] bg-[#A2C3AD] rounded-3xl"
-    >
+    <p class="Content text-center text-[#0f4722] text-3xl font-semibold mt-10">
+        บายศรี
+    </p>
+    <div class="sm:p-10 md:p-20 mx-auto relative">
         <div class="card-container grid flex-wrap gap-5 justify-center">
             <div
                 class="card w-full sm:w-80 md:w-96"
-                v-for="(item, index) in data.namob"
+                v-for="(item, index) in data.ALLbaisee"
                 :key="index"
             >
                 <div
-                    class="card-body bg-white rounded-xl mt-5 my-5 w-full h-[385px] sm:h-auto"
+                    class="card-body bg-white border border-gray-200 rounded-xl mt-0 my-5"
                 >
                     <figure>
                         <img
@@ -42,22 +35,14 @@
                 </div>
             </div>
         </div>
-        <div class="w-full flex justify-end">
-            <nuxt-link
-                class="btn flex justify-center bg-white text-sm text-[#0f4722] btn-xs w-[20%] h-[35px] rounded-full"
-                to="/product"
-            >
-                ดูเพิ่มเติม
-            </nuxt-link>
-        </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import { getDataNO } from '~/data/DataNO.js'
-const { namob } = getDataNO()
+import { getDataALLBaisee } from '~/data/DataALLBaisee.js'
+const { ALLbaisee } = getDataALLBaisee()
 const data = {
-    namob,
+    ALLbaisee,
 }
 </script>
 

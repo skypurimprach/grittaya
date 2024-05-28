@@ -1,7 +1,8 @@
 <template>
-    <div class="card w-full text-center">
-        <h2 class="card-title justify-center mt-5">Product</h2>
-    </div>
+    <ALLproduct1></ALLproduct1>
+    <ALLproduct2></ALLproduct2>
+    <ALLproduct3></ALLproduct3>
+    <ALLproduct4></ALLproduct4>
 </template>
 
 <script setup lang="ts"></script>

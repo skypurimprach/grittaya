@@ -46,11 +46,12 @@
             </div>
         </div>
         <div class="w-full flex justify-end">
-            <button
+            <nuxt-link
                 class="btn flex justify-center bg-white text-sm text-[#0f4722] btn-xs w-[20%] h-[35px] rounded-full"
+                to="/product"
             >
                 ดูเพิ่มเติม
-            </button>
+            </nuxt-link>
         </div>
     </div>
 </template>
