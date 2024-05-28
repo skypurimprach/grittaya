@@ -1,5 +1,5 @@
 <template>
-    <body>
+    <div>
         <ImageSlide />
         <div>
             <VideoPlayer />
@@ -27,7 +27,7 @@
 
         <Contact />
         <br />
-    </body>
+    </div>
 </template>
 
 <script setup></script>
