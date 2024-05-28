@@ -1,15 +1,6 @@
 <template>
     <body>
-        <p
-            class="Content"
-            style="
-                font-weight: 700;
-                line-height: 1;
-                font-size: 24px;
-                text-align: center;
-                color: #0f4722;
-            "
-        >
+        <p class="Content text-center text-[#0f4722] text-3xl font-bold mt-5">
             สินค้าและบริการ
         </p>
         <div class="centered-line-container">
@@ -25,16 +16,19 @@
                     class="card w-64 h-64 max-w-sm p-6"
                     :style="{ 'background-image': `url('${card.image}')` }"
                 >
-                    <h5
-                        class="mb-2 text-2xl font-bold text-gray-900 dark:text-white"
-                    >
+                    <h5 class="mb-2 text-2xl font-bold text-white">
                         {{ card.title }}
                     </h5>
-                    <p class="font-normal text-white">
+                    <p class="font-normal text-white line-clamp-10">
                         {{ card.description }}
                     </p>
                 </div>
             </div>
+        </div>
+        <div class="centered-line-container mt-5">
+            <svg height="50" width="100%" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="10" x2="100%" y2="10" />
+            </svg>
         </div>
     </body>
 </template>
@@ -45,25 +39,25 @@ const cards = [
         title: 'ผู้ให้บริการจัดงานพิธี',
         description:
             'ผู้ให้บริการจัดงานพิธี งานบายศรี หรืองานบวงสรวงต่าง ๆ และให้คำปรึกษาในศาสตร์และศิลป์แขนงต่างๆ ที่สอนโดยผู้เชี่ยวชาญจากศาสตร์แต่ละแขนงครบวงจร ',
-        image: '/images/service1.jpg',
+        image: '/images/services/service1.jpg',
     },
     {
         title: 'รับทำบายศรีโบราณ และเครื่องบวงสรวง',
         description:
             'รับทำบายศรี โบราณ และเครื่อง บวงสรวง โดย อ.หนุ่ม อัญญาน้อย ไทเลย และคณะ',
-        image: '/images/service2.jpg',
+        image: '/images/services/service2.jpg',
     },
     {
         title: 'จำหน่ายผลิตภัณฑ์ เครื่องสักการะ',
         description:
             'จัดจำหน่ายผลิตภัณฑ์และเครื่องสักการะแบบโบราณไทย ในโอกาสต่างๆให้การทำบุญเป็นเรื่องง่ายด้วยชุดสังฆทาน จากกฤตธยา สวย ประณีต และใช้ประโยชน์ได้จริง',
-        image: '/images/service3.jpg',
+        image: '/images/services/service3.jpg',
     },
     {
         title: 'ดูดวง',
         description:
             'ดูดวงไพยิปซี ดูดวงตามราศี โหราศาสตร์ เรื่องการงาน การเงิน ความรัก สุขภาพ โชคลาภ บริวาร โดย อ.หนุ่ม อัญญาน้อย ไทเลย',
-        image: '/images/service4.jpg',
+        image: '/images/services/service4.jpg',
     },
 ]
 </script>

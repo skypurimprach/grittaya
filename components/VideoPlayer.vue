@@ -1,58 +1,19 @@
 <template>
-    <body>
-        <div class="video-box">
-            <video
-                ref="video"
-                class="w-full h-auto max-w-full"
-                autoplay
-                muted
-                controls
-            >
-                <source src="/src/video.mp4" type="video/mp4" />
-            </video>
-        </div>
-        <p
-            class="Title"
-            style="
-                line-height: 1;
-                text-align: center;
-                background-color: #0f4722;
-            "
-        >
-            กฤตธยา (Grittaya) รับจัดงานบวงสรวง งานราชพิธีจำหน่ายเครื่องสังฆทาน
-            รับงานบายศรี และเครื่องสักการะแบบโบราณไทย ในโอกาสต่างๆ
-        </p>
-    </body>
+    <div class="bg-[#0f4722] p-10"></div>
+    <div class="video-box">
+        <video class="w-full h-auto max-w-full" autoplay muted controls>
+            <source src="/src/video.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <p class="Title bg-[#0f4722] text-center font-semibold text-[#f7ce66] p-5">
+        กฤตธยา (Grittaya) รับจัดงานบวงสรวง งานราชพิธีจำหน่ายเครื่องสังฆทาน<br />
+        รับงานบายศรี และเครื่องสักการะแบบโบราณไทย ในโอกาสต่างๆ
+    </p>
 </template>
 
-<script setup lang="ts">
-import { ref, onMounted } from 'vue'
-
-const video = ref<HTMLVideoElement | null>(null)
-
-onMounted(() => {
-    if (video.value) {
-        const unmuteVideo = () => {
-            video.value!.muted = false
-            video.value!.play()
-            document.removeEventListener('click', unmuteVideo)
-        }
-
-        document.addEventListener('click', unmuteVideo)
-    }
-})
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-p {
-    font-family: 'Athiti', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #f7ce66;
-    padding: 10px;
-    margin-top: 0;
-}
-
 .video-box {
     display: flex;
     justify-content: center;
@@ -60,11 +21,7 @@ p {
 }
 
 video {
-    width: 1550px;
+    width: 1200px;
     height: 490px;
-}
-
-body {
-    background-color: #0f4722;
 }
 </style>

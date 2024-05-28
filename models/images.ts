@@ -3,3 +3,4 @@ export interface image{
     id: number
     tags: string[]
 }
+

@@ -1,4 +1,6 @@
-<template></template>
+<template>
+    <ProductDetail1 />
+</template>
 
 <script setup lang="ts"></script>
 
