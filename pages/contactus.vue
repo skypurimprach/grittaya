@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<template></template>
-=======
 <template>
     <h1 class="p-10 text-center">
         <nav class="mx-auto">
@@ -28,7 +25,6 @@
         </nav>
     </h1>
 </template>
->>>>>>> 4cad8c37ec126098683744fdc6f0a70049afc617
 
 <script setup lang="ts"></script>
 
