@@ -1,18 +1,9 @@
 <template>
     <div class="p-4 md:p-10" v-if="item">
-        <p
-            class="text-xl md:text-2xl font-semibold text-[#0F4722] mb-2 md:mb-4"
-        >
-            บทความที่น่าสนใจ
-        </p>
         <div class="text-gray-400">
             <div class="flex flex-wrap gap-2 md:gap-4 mb-2">
                 <NuxtLink to="/">
                     <div>หน้าหลัก</div>
-                </NuxtLink>
-                >
-                <NuxtLink to="/items">
-                    <div>บทความที่น่าสนใจ</div>
                 </NuxtLink>
                 >
                 <div>รายละเอียดบทความ</div>
@@ -22,7 +13,7 @@
                     class="icon w-[18.67px] h-[18.67px]"
                     src="/images/icons/calendar.png"
                 />
-                <h1 class="date text-black text-sm">08 พ.ค. 2567</h1>
+                <h1 class="date text-black text-sm">{{ item.date }}</h1>
             </div>
         </div>
         <div class="flex flex-wrap justify-center gap-10">

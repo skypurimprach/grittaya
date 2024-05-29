@@ -1,4 +1,5 @@
 <template>
+    <div class="bg-[#0f4722] p-6"></div>
     <div class="video-box w-full flex justify-center">
         <video
             ref="video"
@@ -10,6 +11,7 @@
             <source src="/src/video.mp4" type="video/mp4" />
         </video>
     </div>
+
     <p
         class="Title text-lg color text-[#f7ce66] p-2.5 text-center bg-[#0f4722]"
     >

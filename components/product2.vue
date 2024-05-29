@@ -4,7 +4,7 @@
             <div
                 class="flex justify-center text-white text-2xl bg-[#0f4722] btn-xs w-[20%] h-[35px] rounded-full"
             >
-                น้ำอบไทยsdsdcไไ
+                น้ำอบไทย
             </div>
         </div>
 

@@ -24,9 +24,7 @@
             </svg>
         </div>
         <CardContent />
-
         <Contact />
-        <br />
     </div>
 </template>
 
