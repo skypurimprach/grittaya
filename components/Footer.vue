@@ -48,25 +48,25 @@
                     <a href="https://www.facebook.com/grittaya8?locale=th_TH">
                         <img
                             class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                            src="/images/icon facebook black.png"
+                            src="/images/icons/fb_black.png"
                         />
                     </a>
                     <a href="https://page.line.me/grittaya">
                         <img
                             class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                            src="/images/icon line black.webp"
+                            src="/images/icons/line_black.webp"
                         />
                     </a>
                     <a href="grittaya88@gmail.com">
                         <img
                             class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                            src="/images/icon gmail black.png"
+                            src="/images/icons/gmail_black.png"
                         />
                     </a>
                     <a href="https://www.tiktok.com/@grittaya_official">
                         <img
                             class="img w-5 h-4.5 invert mt-14 justify-end gap-4"
-                            src="/images/icon tiktok black.png"
+                            src="/images/icons/tiktok_black.png"
                         />
                     </a>
                 </div>

@@ -1,7 +1,12 @@
 <template>
     <div class="bg-[#0f4722] h-[65px] t-0 w-full">
         <div class="flex justify-between items-center h-full">
-            <img src="/images/gritt-lay.png" class="w-48" />
+            <nuxt-link to="/">
+                <img src="/images/gritt-lay.png" class="w-48" />
+            </nuxt-link>
+
+            >
+
             <div
                 class="text-white block md:hidden mr-8 cursor-pointer"
                 @click="store.$state.openSidebar = !store.$state.openSidebar"
