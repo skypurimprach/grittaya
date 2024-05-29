@@ -6,10 +6,13 @@
         </div>
         <br />
         <CardService />
-        <CardProduct1 />
-        <CardProduct2 />
-        <CardProduct3 />
-        <CardProduct4 />
+        <p class="Content text-center text-[#0f4722] text-3xl font-bold mb-5">
+            เครื่องบวงสรวงและงานฝีมือเอกลักษณ์ไทย
+        </p>
+        <CardPml />
+        <CardNamob />
+        <CardBaisee />
+        <CardSkt />
         <p class="Content text-center text-[#0f4722] text-3xl font-bold mt-10">
             บทความที่น่าสนใจ
         </p>
@@ -25,6 +28,7 @@
         </div>
         <CardContent />
         <Contact />
+        <test />
     </div>
 </template>
 

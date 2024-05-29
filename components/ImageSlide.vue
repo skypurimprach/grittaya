@@ -39,20 +39,13 @@
 const items = [
     '/images/slides/slide1.png',
     '/images/slides/slide2.png',
-    '/images/slides/slide3.png',
-    '/images/slides/slide4.png',
+    '/images/slides/cover1.png',
+    '/images/slides/cover2.png',
+    '/images/slides/cover3.png',
 ]
 </script>
 
 <style scoped>
-.swiper-image {
-    width: 100%;
-    max-width: 1000px;
-    height: auto;
-    max-height: 450px;
-    object-fit: cover;
-}
-
 @media (max-width: 1024px) {
     .swiper-image {
         max-width: 800px;
@@ -71,6 +64,19 @@ const items = [
     .swiper-image {
         max-width: 100%;
         max-height: 200px;
+    }
+}
+
+/* Custom styles for Swiper navigation buttons */
+::v-deep .swiper-button-next,
+::v-deep .swiper-button-prev {
+    @apply text-[#0f4722];
+}
+
+@media (max-width: 768px) {
+    ::v-deep .swiper-button-next,
+    ::v-deep .swiper-button-prev {
+        @apply text-white;
     }
 }
 </style>

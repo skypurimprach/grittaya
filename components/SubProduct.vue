@@ -1,43 +1,40 @@
 <template>
-    <div>
-        <h1 class="text-2xl font-bold text-[#0F4722] p-10">สินค้าแนะนำ</h1>
-
+    <div class="p-4 md:p-10">
+        <p class="text-xl md:text-2xl font-bold text-[#0F4722] mb-2 md:mb-4">
+            สินค้าแนะนำ
+        </p>
         <div
-            class="card-container flex flex-wrap gap-5 justify-center m-auto relative w-[1076px] h-[500px] p-[18px 15px 23px 15px] rounded-3xl gap-6"
+            class="flex-wrap flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20"
         >
-            <div
-                class="card w-80"
-                v-for="(item, index) in data.pml"
-                :key="index"
-            >
+            <div v-for="(item, index) in data.pml" :key="index">
                 <div
-                    class="card-body bg-white border border-gray-200 rounded-lg shadow mt-5 my-5 w-[324px] h-[385px]"
+                    class="card-body bg-white border-gray-200 shadow rounded-xl w-[324px] h-[385px]"
                 >
-                    <figure>
-                        <img :src="item.image" class="card-image rounded-lg" />
-                    </figure>
-                    <h2 class="card-title text-[#0f4722] font-semibold">
+                    <div>
+                        <img
+                            :src="item.image"
+                            class="image w-[280px] h-[192px] rounded-xl"
+                        />
+                    </div>
+
+                    <h2 class="title text-[#0f4722] font-semibold text-lg">
                         {{ item.title }}
                     </h2>
-                    <p>{{ item.content }}</p>
+                    <p class="content text-gray-400">
+                        {{ item.content }}
+                    </p>
                     <div class="card-actions justify-center">
-                        <button
-                            class="btn text-white text-sm bg-[#0f4722] btn-xs w-[180px] h-[35px] rounded-full"
-                        >
-                            ชมสินค้า
-                        </button>
+                        <NuxtLink :to="`/details/productPML/${item.id}`">
+                            <button
+                                class="btn text-white text-sm bg-[#0f4722] btn-xs w-[180px] h-[35px] rounded-full"
+                            >
+                                ชมสินค้า
+                            </button>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="flex justify-center mt-4">
-        <button
-            type="button"
-            class="text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-sm text-sm px-5 py-2.5 text-center me-2 mb-2 font-semibold"
-        >
-            ชมสินค้าเพิ่มเติม
-        </button>
     </div>
 </template>
 
