@@ -1,14 +1,16 @@
 <template>
-    <ALLproduct1 />
-    <ALLproduct2 />
-    <ALLproduct3 />
-    <ALLproduct4 />
+    <div>
+        <ALLproduct1 />
+        <ALLproduct2 />
+        <ALLproduct3 />
+        <ALLproduct4 />
+    </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
 
 <style scoped>
-body {
-    background-color: white;
-}
+
 </style>

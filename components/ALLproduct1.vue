@@ -28,12 +28,15 @@
                             {{ item.content }}
                         </p>
                         <div class="card-actions flex justify-center mt-2">
-                            <nuxt-link
-                                class="btn text-white text-sm bg-[#0f4722] btn-xs sm:text-base md:text-lg w-full sm:w-auto h-[35px] rounded-full"
-                                to="/detail"
-                            >
-                                ชมสินค้า
-                            </nuxt-link>
+                            <NuxtLink
+                                    :to="`/details/productPML/${item.id}`"
+                                >
+                                    <button
+                                        class="btn text-white text-sm bg-[#0f4722] btn-xs w-[180px] h-[35px] rounded-full"
+                                    >
+                                        ชมสินค้า
+                                    </button>
+                                </NuxtLink>
                         </div>
                     </div>
                 </div>
