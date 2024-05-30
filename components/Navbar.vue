@@ -40,12 +40,6 @@
                     to="/aboutus"
                     >เกี่ยวกับเรา</nuxt-link
                 >
-                <nuxt-link
-                    class="nav-link text-white p2 rounded-md transition-colors no-underline hover:text-[#eddf82]"
-                    exact-active-class="active-link"
-                    to="/contactus"
-                    >ติดต่อเรา</nuxt-link
-                >
             </div>
         </div>
     </div>

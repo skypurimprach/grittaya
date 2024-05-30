@@ -6,7 +6,7 @@ const pml = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/pml1.png',
+      image: '/images/products/pml/pml1.png',
       image_detail:'/images/products/pml/big_pml1.png'
     },
     {
@@ -16,7 +16,7 @@ const pml = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/pml2.png',
+      image: '/images/products/pml/pml2.png',
       image_detail:'/images/products/pml/big_pml2.png'
     },
     {
@@ -26,7 +26,7 @@ const pml = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/pml3.png',
+      image: '/images/products/pml/pml3.png',
       image_detail:'/images/products/pml/big_pml3.png'
     },
   ];

@@ -28,11 +28,6 @@
                         to="/aboutus"
                         >เกี่ยวกับเรา</nuxt-link
                     >
-                    <nuxt-link
-                        class="nav-link text-white hover:text-yellow-400"
-                        to="/contactus"
-                        >ติดต่อเรา</nuxt-link
-                    >
                 </div>
             </div>
         </div>

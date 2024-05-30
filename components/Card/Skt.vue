@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="pb-2">
+        <div class="pb-2 w-full px-52">
             <div class="pb-2">
                 <button
                     type="button"
@@ -12,7 +12,7 @@
 
             <div class="flex justify-center">
                 <div
-                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20"
+                    class="flex-wrap md:bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 w-full"
                 >
                     <div v-for="(item, index) in data.skt" :key="index">
                         <div

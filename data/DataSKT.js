@@ -6,8 +6,8 @@ const skt = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/SKT1.png',
-      image_detail: '/images/products/SKT1.png'
+      image: '/images/products/skt/SKT1.png',
+      image_detail: '/images/products/skt/SKT1.png'
     },
     {
       id:'2',
@@ -16,8 +16,8 @@ const skt = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/SKT2.png',
-      image_detail: '/images/products/SKT1.png'
+      image: '/images/products/skt/SKT2.png',
+      image_detail: '/images/products/skt/SKT1.png'
     },
   ];
   

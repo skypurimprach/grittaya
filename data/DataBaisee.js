@@ -6,8 +6,8 @@ const baisee = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/BS1.png',
-      image_detail:'/images/products/BS1.png'
+      image: '/images/products/baisee/BS1.png',
+      image_detail:'/images/products/baisee/BS1.png'
     },
     {id: '2',
       title: 'บายศรีปากชาม', 
@@ -15,8 +15,8 @@ const baisee = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/BS2.png',
-      image_detail:'/images/products/BS1.png'
+      image: '/images/products/baisee/BS2.png',
+      image_detail:'/images/products/baisee/BS1.png'
     },
     { id: '3',
       title: 'บายศรีแบบที่ 3', 
@@ -24,8 +24,8 @@ const baisee = [
       detail:'รายละเอียด', 
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/BS3.png',
-      image_detail:'/images/products/BS1.png'
+      image: '/images/products/baisee/BS3.png',
+      image_detail:'/images/products/baisee/BS1.png'
     },
   ];
   

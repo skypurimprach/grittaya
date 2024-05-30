@@ -46,6 +46,13 @@ const items = [
 </script>
 
 <style scoped>
+.swiper-image {
+    width: 100%;
+    max-width: 1800px;
+    height: auto;
+    max-height: 630px;
+    object-fit: cover;
+}
 @media (max-width: 1024px) {
     .swiper-image {
         max-width: 800px;
@@ -67,7 +74,6 @@ const items = [
     }
 }
 
-/* Custom styles for Swiper navigation buttons */
 ::v-deep .swiper-button-next,
 ::v-deep .swiper-button-prev {
     @apply text-[#0f4722];
