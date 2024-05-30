@@ -28,7 +28,6 @@
         </div>
         <CardContent />
         <Contact />
-        <test />
     </div>
 </template>
 
