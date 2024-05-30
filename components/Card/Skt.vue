@@ -14,7 +14,7 @@
 
             <div class="flex justify-center">
                 <div
-                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
+                    class="flex-wrap px-52 bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
                 >
                     <div v-for="(item, index) in data.skt" :key="index">
                         <div
