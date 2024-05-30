@@ -30,11 +30,7 @@
                       exact-active-class="active-link"
                       to="/aboutus"
                   >เกี่ยวกับเรา</nuxt-link>
-                  <nuxt-link
-                      class="nav-link text-white p-2 rounded-md transition-colors no-underline hover:text-[#eddf82] text-center"
-                      exact-active-class="active-link"
-                      to="/contactus"
-                  >ติดต่อเรา</nuxt-link>
+                  
               </nav>
               <div class="icon flex gap-5 mt-4 md:mt-14 justify-center">
                   <a href="https://www.facebook.com/grittaya8?locale=th_TH">
