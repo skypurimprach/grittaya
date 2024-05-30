@@ -5,15 +5,16 @@
             หรือจัดพิธีบวงสรวงต่างๆ
         </h1>
         <div class="flex flex-row justify-center gap-7 mb-10">
-            <div class="fb">
+            <a href="https://www.facebook.com/grittaya8?locale=th_TH" class="fb">
                 <img class="img" src="/images/icons/fb.svg" />
-            </div>
+                
+            </a>
             <h1 class="h1 text-black">
                 กฤตธยา รับจัดงานพิธี บายศรีโบราณ<br />เครื่องบวงสรวงและงานฝีกมือเอกลักษณ์ไทย
             </h1>
-            <div class="line">
+            <a  href="https://page.line.me/grittaya" class="line">
                 <img class="img" src="/images/icons/line.svg" />
-            </div>
+            </a>
             <h1 class="h1 text-black mt-2">Grittaya</h1>
 
             <div class="tel">
@@ -22,6 +23,7 @@
             <h1 class="h1 text-black mt-2">097-9905388, 081-9958788</h1>
         </div>
     </div>
+    
 </template>
 
 <script setup lang="ts"></script>
