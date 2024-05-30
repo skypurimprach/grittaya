@@ -10,7 +10,6 @@
             เครื่องบวงสรวงและงานฝีมือเอกลักษณ์ไทย
         </p>
         <CardPml />
-        <test />
         <CardNamob />
         <CardBaisee />
         <CardSkt />
