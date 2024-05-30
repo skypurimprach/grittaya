@@ -46,11 +46,18 @@
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full absolute bottom-2 right-10"
+                    <div v-for="(item, index) in data.skt" :key="index">
+                        <NuxtLink 
+                        :to="`DPT/SKT/${item.id}`"
+                    >  
+                        <button
+                            class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full absolute bottom-2 right-10 mb-4"
                     >
                         ดูเพิ่มเติม
-                    </button>
+                        </button>
+                    </NuxtLink>
+                  
+                    </div>
                 </div>
             </div>
         </div>

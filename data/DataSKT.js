@@ -19,6 +19,16 @@ const skt = [
       image: '/images/products/SKT2.png',
       image_detail: '/images/products/SKT1.png'
     },
+    {
+      id:'3',
+      title: 'สังฆทานแบบที่ 3', 
+      content: 'แบบที่ 3',
+      detail:'รายละเอียด',
+      howto: 'วิธีใช้ : ',
+      warning: 'คำเตือน : ห้ามรับประทาน',
+      image: '/images/products/SKT2.png',
+      image_detail: '/images/products/SKT1.png'
+    },
   ];
   
   export const getDataSKT = () => {

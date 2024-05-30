@@ -48,6 +48,14 @@ const { ALLpml } = getDataALLPML()
 const data = {
     ALLpml,
 }
+const route = useRoute()
+const itemId = route.params.id
+
+const item = ref<any>()
+
+onMounted(() => {
+    item.value = ALLpml.find((item) => item.id === itemId)
+})
 </script>
 
 <style scoped>

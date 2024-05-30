@@ -11,7 +11,7 @@ export default defineNuxtConfig({
             ],
         },
     },
-    modules: ['@pinia/nuxt'],
+    modules: ['@pinia/nuxt', 'nuxt-swiper'],
     devtools: { enabled: true },
     css: ['~/assets/css/main.css'],
     postcss: {

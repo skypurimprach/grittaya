@@ -48,6 +48,14 @@ const { namob } = getDataNO()
 const data = {
     namob,
 }
+const route = useRoute()
+const itemId = route.params.id
+
+const item = ref<any>()
+
+onMounted(() => {
+    item.value = namob.find((item) => item.id === itemId)
+})
 </script>
 
 <style scoped>

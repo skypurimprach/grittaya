@@ -19,6 +19,16 @@ const namob = [
       image: '/images/products/NO2.png',
       image_detail: '/images/products/p2.png'
     },
+    {
+      id:'3',
+      title: 'น้ำอบสูตร 3', 
+      content:'สูตรสามมม',
+      detail: 'สามมม', 
+      howto: 'วิธีใช้ : ใช้ผสมน้ำเปล่าในอัตรส่วน 1:1 เพื่อสรงน้ำพระ, รดน้ำดำหัวผู้ใหญ่ หรือปะพรมร่างกาย เพื่อความสดชื่น',
+      warning: 'คำเตือน : ห้ามรับประทาน',
+      image: '/images/products/NO2.png',
+      image_detail: '/images/products/p2.png'
+    },
   ];
   
   export const getDataNO = () => {

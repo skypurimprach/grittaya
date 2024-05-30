@@ -48,6 +48,15 @@ const { ALLskt } = getDataALLSKT()
 const data = {
     ALLskt,
 }
+
+const route = useRoute()
+const itemId = route.params.id
+
+const item = ref<any>()
+
+onMounted(() => {
+    item.value = ALLskt.find((item) => item.id === itemId)
+})
 </script>
 
 <style scoped>

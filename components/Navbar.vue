@@ -5,7 +5,7 @@
                 <img src="/images/gritt-lay.png" class="w-48" />
             </nuxt-link>
 
-            >
+            
 
             <div
                 class="text-white block md:hidden mr-8 cursor-pointer"

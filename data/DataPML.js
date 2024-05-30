@@ -5,7 +5,7 @@ const pml = [
       content: 'แบบที่1',
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ควรเก็บในอุณหภูมิต่ำกว่า 20 องศา',
       image: '/images/products/pml1.png',
       image_detail:'/images/products/pml/big_pml1.png'
     },
@@ -15,7 +15,7 @@ const pml = [
       content: 'แบบที่ 2', 
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ควรเก็บในอุณหภูมิต่ำกว่า 20 องศา',
       image: '/images/products/pml2.png',
       image_detail:'/images/products/pml/big_pml2.png'
     },
@@ -25,7 +25,7 @@ const pml = [
       content: 'แบบที่3',
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน :ควรเก็บในอุณหภูมิต่ำกว่า 20 องศา',
       image: '/images/products/pml3.png',
       image_detail:'/images/products/pml/big_pml3.png'
     },
