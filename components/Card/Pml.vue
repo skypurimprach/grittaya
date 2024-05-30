@@ -6,7 +6,7 @@
             >
                 <button
                     type="button"
-                    class="text-white text-3xl font-semibold bg-[#0f4722] w-[170px] h-[45px] rounded-full"
+                    class="text-white text-3xl font-semibold bg-[#0f4722] w-[170px] h-[50px] rounded-full"
                 >
                     พวงมาลัย
                 </button>

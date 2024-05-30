@@ -1,18 +1,20 @@
 <template>
     <div class="flex justify-center">
-        <div class="pb-2 w-full px-52">
-            <div class="pb-2">
+        <div class="pb-2">
+            <div
+                class="pb-2 max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center"
+            >
                 <button
                     type="button"
-                    class="text-white text-3xl font-semibold bg-[#0f4722] w-[170px] h-[45px] rounded-full"
+                    class="text-white text-3xl font-semibold bg-[#0f4722] w-[170px] h-[50px] rounded-full"
                 >
-                    สังฆทาน
+                    พวงมาลัย
                 </button>
             </div>
 
             <div class="flex justify-center">
                 <div
-                    class="flex-wrap md:bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 w-full"
+                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
                 >
                     <div v-for="(item, index) in data.skt" :key="index">
                         <div
@@ -46,11 +48,15 @@
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full absolute bottom-2 right-10"
+                    <div
+                        class="absolute bottom-2 right-10 max-sm:static max-sm:flex max-sm:justify-center"
                     >
-                        ดูเพิ่มเติม
-                    </button>
+                        <button
+                            class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full"
+                        >
+                            ดูเพิ่มเติม
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
