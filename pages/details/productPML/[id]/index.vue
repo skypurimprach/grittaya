@@ -1,6 +1,7 @@
 <template>
     <div>
-        <ProductDetail1 />
+        <CardDetailPML />
+        <SubNamob />
     </div>
 </template>
 

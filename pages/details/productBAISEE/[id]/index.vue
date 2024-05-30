@@ -1,6 +1,7 @@
 <template>
     <div>
-        <ProductDetail4 />
+        <CardDetailBaisee />
+        <SubSKT />
     </div>
 </template>
 

@@ -12,7 +12,7 @@
 
             <div class="flex justify-center">
                 <div
-                    class="flex-wrap md:bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 w-full"
+                    class="flex-wrap md:bg-[#A2C3AD] flex flex-rows rounded-xl p-10 gap-5 relative h-full pb-20 w-full"
                 >
                     <div v-for="(item, index) in data.namob" :key="index">
                         <div
