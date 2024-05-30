@@ -14,9 +14,14 @@
 
             <div class="flex justify-center">
                 <div
-                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
+                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-6 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
                 >
-                    <div v-for="(item, index) in data.baisee" :key="index">
+                    <div
+                        v-for="(item, index) in baisee.filter(
+                            (e) => e.active == true,
+                        )"
+                        :key="index"
+                    >
                         <div
                             class="card-body bg-white border-gray-200 shadow rounded-xl w-[324px] h-[385px]"
                         >
@@ -48,14 +53,17 @@
                             </div>
                         </div>
                     </div>
+
                     <div
                         class="absolute bottom-2 right-10 max-sm:static max-sm:flex max-sm:justify-center"
                     >
-                        <button
-                            class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full"
-                        >
-                            ดูเพิ่มเติม
-                        </button>
+                        <NuxtLink to="/MoreProduct/all_baisee"
+                            ><button
+                                class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full"
+                            >
+                                ดูเพิ่มเติม
+                            </button>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>

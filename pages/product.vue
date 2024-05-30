@@ -1,8 +1,8 @@
 <template>
-    <ALLproduct1 />
-    <ALLproduct2 />
-    <ALLproduct3 />
-    <ALLproduct4 />
+    <ALLProductBaisee />
+    <ALLProductNO />
+    <ALLProductPML />
+    <ALLProductSKT />
 </template>
 
 <script setup lang="ts"></script>

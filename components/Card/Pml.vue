@@ -14,7 +14,7 @@
 
             <div class="flex justify-center">
                 <div
-                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
+                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-6 justify-center gap-5 relative w-full h-full pb-20 max-sm:pb-5"
                 >
                     <div v-for="(item, index) in data.pml" :key="index">
                         <div
@@ -51,11 +51,13 @@
                     <div
                         class="absolute bottom-2 right-10 max-sm:static max-sm:flex max-sm:justify-center"
                     >
-                        <button
-                            class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full"
+                        <NuxtLink to="/MoreProduct/all_pml">
+                            <button
+                                class="btn text-black text-sm bg-white btn-xs w-[120px] h-[35px] rounded-full"
+                            >
+                                ดูเพิ่มเติม
+                            </button></NuxtLink
                         >
-                            ดูเพิ่มเติม
-                        </button>
                     </div>
                 </div>
             </div>
