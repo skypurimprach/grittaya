@@ -10,11 +10,11 @@
             เครื่องบวงสรวงและงานฝีมือเอกลักษณ์ไทย
         </p>
         <CardPml />
+        <test />
         <CardNamob />
         <CardBaisee />
         <CardSkt />
-        <test />
-        <!-- <test2 /> -->
+
         <p class="Content text-center text-[#0f4722] text-3xl font-bold mt-10">
             บทความที่น่าสนใจ
         </p>
