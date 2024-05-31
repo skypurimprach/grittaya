@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="pb-2">
+        <div class="pb-2 w-full mx-12 xl:w-[1060px]">
             <div
                 class="pb-2 max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center"
             >
@@ -12,9 +12,9 @@
                 </button>
             </div>
 
-            <div class="flex justify-center">
+            <div class="w-full">
                 <div
-                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-6 justify-center gap-5 relative h-full pb-20 max-sm:pb-5"
+                    class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-6 gap-5 relative w-full h-full pb-20 max-sm:pb-5 max-lg:justify-center"
                 >
                     <div
                         v-for="(item, index) in skt.filter(

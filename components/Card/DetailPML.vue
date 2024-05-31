@@ -6,16 +6,14 @@
             สินค้า กฤตธยา เครื่องบวงสรวงและงานฝีมือเอกลักษณ์ไทย
         </p>
         <div class="text-gray-400">
-            <div class="flex flex-wrap gap-2 md:gap-4 mb-2">
+            <div class="flex gap-4 mb-2">
                 <NuxtLink to="/">
-                    <div>หน้าหลัก</div>
-                </NuxtLink>
+                    <div class="hover:text-[#0f4722] font-medium">
+                        หน้าหลัก
+                    </div></NuxtLink
                 >
-                <NuxtLink to="/items">
-                    <div>สินค้า</div>
-                </NuxtLink>
                 >
-                <div>รายละเอียดสินค้า</div>
+                <div class="text-[#0f4722] font-semibold">รายละเอียดสินค้า</div>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">

@@ -3,10 +3,10 @@
         <div class="text-gray-400">
             <div class="flex flex-wrap gap-2 md:gap-4 mb-2">
                 <NuxtLink to="/">
-                    <div>หน้าหลัก</div>
+                    <div class="hover:text-[#0f4722] font-medium">หน้าหลัก</div>
                 </NuxtLink>
                 >
-                <div>รายละเอียดบทความ</div>
+                <div class="text-[#0f4722] font-semibold">รายละเอียดบทความ</div>
             </div>
             <div class="flex gap-2 mt-5">
                 <img
