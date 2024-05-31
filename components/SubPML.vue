@@ -4,7 +4,7 @@
             สินค้าแนะนำ
         </p>
         <div
-            class="flex-wrap flex flex-rows rounded-xl p-5 justify-center gap-5 relative h-full pb-5"
+            class="flex-wrap flex flex-rows rounded-xl gap-5 relative h-full pb-5 max-sm:justify-center"
         >
             <div
                 v-for="(item, index) in pml.filter((e) => e.active == false)"

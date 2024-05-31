@@ -1,7 +1,7 @@
 <template>
     <div>
         <CardDetailPML />
-        <SubNamob />
+        <SubPML />
     </div>
 </template>
 

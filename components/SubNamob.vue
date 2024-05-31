@@ -1,10 +1,12 @@
 <template>
-    <div class="p-4 md:p-10">
-        <p class="text-xl md:text-2xl font-bold text-[#0F4722] mb-2 md:mb-4">
+    <div class="md:p-10">
+        <p
+            class="text-xl md:text-2xl font-bold text-[#0F4722] mb-2 md:mb-4 max-sm:ml-10"
+        >
             สินค้าแนะนำ
         </p>
         <div
-            class="flex-wrap flex flex-rows rounded-xl p-5 justify-center gap-5 relative h-full pb-5"
+            class="flex-wrap flex flex-rows rounded-xl gap-5 relative h-full pb-5 max-sm:justify-center"
         >
             <div
                 v-for="(item, index) in namob.filter((e) => e.active == true)"
