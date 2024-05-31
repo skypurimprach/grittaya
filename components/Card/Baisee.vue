@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center">
-        <div class="pb-2 w-full mx-12 xl:w-[1060px]">
+        <div class="pb-10 w-full mx-12 xl:w-[1060px]">
             <div
                 class="pb-2 max-sm:flex max-sm:justify-center max-md:flex max-md:justify-center"
             >
