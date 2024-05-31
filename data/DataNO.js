@@ -29,6 +29,7 @@ const namob = [
       image: '/images/products/NO2.png',
       image_detail: '/images/products/p2.png'
     },
+
   ];
   
   export const getDataNO = () => {
