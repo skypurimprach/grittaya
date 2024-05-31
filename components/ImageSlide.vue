@@ -37,11 +37,11 @@
 
 <script setup lang="ts">
 const items = [
-    '/images/slides/slide1.png',
-    '/images/slides/slide2.png',
     '/images/slides/cover1.png',
     '/images/slides/cover2.png',
     '/images/slides/cover3.png',
+    '/images/slides/cover4.png',
+    '/images/slides/cover5.png',
 ]
 </script>
 

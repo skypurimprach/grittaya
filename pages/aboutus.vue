@@ -5,16 +5,18 @@
     >
         <div>
             <h1
-                class="title text-center text-white font-bold text-3xl mb-5 z-10"
+                class="title text-center text-white font-semibold text-3xl mb-5 z-10"
             >
                 เกี่ยวกับเรา
             </h1>
-            <div class="img flex flex-col items-center z-10">
+            <div class="img flex flex-col items-center z-10 mt">
                 <img
                     src="/images/grittaya.jpg"
                     class="image md:h-[480px] w-[720px] rounded-lg"
                 />
-                <div class="content bg-white bg-opacity-90 p-6 rounded-lg">
+                <div
+                    class="content bg-white bg-opacity-90 p-6 rounded-lg mt-10"
+                >
                     <p class="text-black indent-10 mb-2 font-medium">
                         กฤตธยา (Grittaya) เป็นแบรนด์ในเครือของบริษัท กริท
                         คอนซัลแทนท์ จำกัด โดยการก่อตั้งของ CEO คุณชิดชลธาร
