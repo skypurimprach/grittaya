@@ -10,7 +10,11 @@
         :loop="true"
         :effect="'creative'"
         :navigation="true"
-        :pagination="true"
+        :pagination="{
+            clickable: true,
+            bulletClass: 'swiper-pagination-bullet',
+            bulletActiveClass: 'swiper-pagination-bullet-active',
+        }"
         :autoplay="{
             delay: 3500,
             disableOnInteraction: false,
@@ -77,5 +81,14 @@ const items = [
 ::v-deep .swiper-button-next,
 ::v-deep .swiper-button-prev {
     @apply text-[white];
+}
+
+::v-deep .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+}
+
+::v-deep .swiper-pagination-bullet-active {
+    background-color: green;
 }
 </style>

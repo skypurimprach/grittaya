@@ -8,7 +8,12 @@
         <div
             class="flex-wrap flex flex-rows rounded-xl gap-5 relative h-full pb-5 max-sm:justify-center"
         >
-            <div v-for="(item, index) in displayedProducts" :key="index">
+            <div
+                v-for="(item, index) in skt
+                    .filter((e) => e.active == false && e.id != itemId)
+                    .slice(0, 4)"
+                :key="index"
+            >
                 <div
                     class="card-body bg-white border-gray-200 shadow rounded-xl w-[324px] h-[385px]"
                 >
@@ -53,8 +58,8 @@
 <script setup lang="ts">
 import { getDataSKT } from '~/data/DataSKT.js'
 const { skt } = getDataSKT()
-
-const displayedProducts = skt.filter((e) => e.active == false).slice(0, 4)
+const route = useRoute()
+const itemId = route.params.id
 </script>
 
 <style scoped></style>

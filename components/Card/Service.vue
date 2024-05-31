@@ -20,7 +20,7 @@
                 <div
                     v-for="(item, index) in service"
                     :key="index"
-                    class="card w-[244px] h-[403px] max-w-sm p-6 bg-cover bg-center relative"
+                    class="card w-[244px] h-[403px] max-w-sm p-6 bg-cover bg-center relative hover:scale-105"
                     :style="{ 'background-image': `url('${item.image}')` }"
                 >
                     <h5

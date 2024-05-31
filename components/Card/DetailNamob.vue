@@ -95,9 +95,7 @@ const itemId = route.params.id
 const item = ref<any>()
 onMounted(() => {
     // ใช้ itemId เพื่อค้นหาข้อมูลสินค้าที่ตรงกับ ID ที่กำหนด
-    const NamobItemId = Number(itemId)
-
-    item.value = namob.find((item) => item.id === NamobItemId)
+    item.value = namob.find((item) => item.id === itemId)
 })
 </script>
 

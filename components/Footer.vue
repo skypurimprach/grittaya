@@ -45,32 +45,34 @@
                 </div>
                 <div class="h-1/2">
                     <div class="icon flex gap-5 max-md:mt-2 justify-end">
-                        <a
-                            href="https://www.facebook.com/grittaya8?locale=th_TH"
+                        <NuxtLink
+                            to="https://www.facebook.com/grittaya8?locale=th_TH"
                         >
                             <img
                                 class="img w-5 h-4.5 invert"
                                 src="/images/icons/fb_black.png"
                             />
-                        </a>
-                        <a href="https://page.line.me/grittaya">
+                        </NuxtLink>
+                        <NuxtLink to="https://page.line.me/grittaya">
                             <img
                                 class="img w-5 h-4.5 invert"
                                 src="/images/icons/line_black.webp"
                             />
-                        </a>
-                        <a href="mailto:grittaya88@gmail.com">
+                        </NuxtLink>
+                        <NuxtLink to="mailto:grittaya88@gmail.com">
                             <img
                                 class="img w-5 h-4.5 invert"
                                 src="/images/icons/gmail_black.png"
                             />
-                        </a>
-                        <a href="https://www.tiktok.com/@grittaya_official">
+                        </NuxtLink>
+                        <NuxtLink
+                            to="https://www.tiktok.com/@grittaya_official"
+                        >
                             <img
                                 class="img w-5 h-4.5 invert"
                                 src="/images/icons/tiktok_black.png"
                             />
-                        </a>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
@@ -84,7 +86,9 @@
     <div></div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type { NuxtLink } from '#build/components'
+</script>
 
 <style>
 .items {

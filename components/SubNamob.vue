@@ -9,7 +9,7 @@
             class="flex-wrap flex flex-rows rounded-xl gap-5 relative h-full pb-5 max-sm:justify-center"
         >
             <div
-                v-for="(item, index) in namob.filter((e) => e.active == true)"
+                v-for="(item, index) in namob.filter((e) => e.id != itemId)"
                 :key="index"
             >
                 <div
@@ -56,6 +56,8 @@
 <script setup lang="ts">
 import { getDataNO } from '~/data/DataNO.js'
 const { namob } = getDataNO()
+const route = useRoute()
+const itemId = route.params.id
 const data = {
     namob,
 }

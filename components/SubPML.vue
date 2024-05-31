@@ -7,7 +7,9 @@
             class="flex-wrap flex flex-rows rounded-xl gap-5 relative h-full pb-5 max-sm:justify-center"
         >
             <div
-                v-for="(item, index) in pml.filter((e) => e.active == false)"
+                v-for="(item, index) in pml
+                    .filter((e) => e.active == false && e.id != itemId)
+                    .slice(0, 4)"
                 :key="index"
             >
                 <div
@@ -54,6 +56,9 @@
 <script setup lang="ts">
 import { getDataPML } from '~/data/DataPML.js'
 const { pml } = getDataPML()
+const route = useRoute()
+const itemId = route.params.id
+
 const data = {
     pml,
 }

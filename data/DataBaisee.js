@@ -4,7 +4,7 @@ const baisee = [
   content: 'บายศรีที่ทำจากใบตองแล้วจัดวางลงบนชามหรือถ้วย จึงถูกเรียกว่า "บายศรีปากชาม"', 
   detail:'รายละเอียด',
   howto: 'วิธีใช้ : ',
-  warning: 'คำเตือน : ห้ามรับประทาน',
+  warning: 'คำเตือน : ',
   image: '/images/products/baisee/bs_detail2.png',
   active: true
 },
@@ -14,7 +14,7 @@ const baisee = [
       content: 'บายศรีแบบที่1', 
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ',
       image: '/images/products/baisee/bs_detail6.png',
       active: true
     },
@@ -23,7 +23,7 @@ const baisee = [
     content: 'บายศรีแบบที่3',
     detail:'รายละเอียด', 
     howto: 'วิธีใช้ : ',
-    warning: 'คำเตือน : ห้ามรับประทาน',
+    warning: 'คำเตือน : ',
     image: '/images/products/baisee/bs_detail7.png',
     active: true
   },
@@ -33,7 +33,7 @@ const baisee = [
       content: 'บายศรีแบบที่4', 
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ',
       image: '/images/products/baisee/bs_detail1.png',
       active: false
     },
@@ -42,7 +42,7 @@ const baisee = [
       content: 'บายศรีที่ทำจากใบตองแล้วจัดวางลงบนชามหรือถ้วย จึงถูกเรียกว่า "บายศรีปากชาม"', 
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ',
       image: '/images/products/baisee/bs_detail8.png',
       active: false
     },
@@ -51,7 +51,7 @@ const baisee = [
       content: 'บายศรีแบบที่3',
       detail:'รายละเอียด', 
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ',
       image: '/images/products/baisee/bs_detail3.png',
       active: false
     },
@@ -60,7 +60,7 @@ const baisee = [
       content: 'บายศรีแบบที่3',
       detail:'รายละเอียด', 
       howto: 'วิธีใช้ : ',
-      warning: 'คำเตือน : ห้ามรับประทาน',
+      warning: 'คำเตือน : ',
       image: '/images/products/baisee/bs_detail4.png',
       active: false
     },
@@ -69,7 +69,7 @@ const baisee = [
     content: 'บายศรีแบบที่3',
     detail:'รายละเอียด', 
     howto: 'วิธีใช้ : ',
-    warning: 'คำเตือน : ห้ามรับประทาน',
+    warning: 'คำเตือน : ',
     image: '/images/products/baisee/bs_detail5.png',
     active: false
   }

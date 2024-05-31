@@ -30,7 +30,7 @@
                     >
                         {{ item.title }}
                     </h1>
-                    <h2 class="text-gray-400 mb-2">{{ item.content }}</h2>
+                    <h2 class="text-gray-400 mb-2">{{ item.detail }}</h2>
                     <h2 class="text-gray-400 mt-6 md:mt-10">
                         {{ item.howto }}
                     </h2>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <CardDetailBaisee />
-        <SubSKT />
+        <SubBaisee />
     </div>
 </template>
 
