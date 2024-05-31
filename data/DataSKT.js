@@ -7,7 +7,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt1.png',
-      image_detail: '/images/products/skt/skt1.png',
       active: false
 
     },
@@ -19,7 +18,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt2.png',
-      image_detail: '/images/products/skt/skt2.png',
       active: false
     
     },{
@@ -30,7 +28,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt3.png',
-      image_detail: '/images/products/skt/skt3.png',
       active: true
     
     },{
@@ -41,7 +38,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt4.png',
-      image_detail: '/images/products/skt/skt4.png',
       active: true
     
     },
@@ -53,7 +49,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt5.png',
-      image_detail: '/images/products/skt/skt5.png',
       active: true
     
     },
@@ -65,7 +60,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt6.png',
-      image_detail: '/images/products/skt/skt6.png',
       active: false
     
     },
@@ -77,7 +71,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt7.png',
-      image_detail: '/images/products/skt/skt7.png',
       active: false
     
     },
@@ -89,7 +82,6 @@ const skt = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/skt/skt8.png',
-      image_detail: '/images/products/skt/skt8.png',
       active: false
     
     },

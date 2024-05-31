@@ -24,7 +24,7 @@
                     {{ item.title }}
                 </h1>
                 <img
-                    :src="item.image_detail"
+                    :src="item.image"
                     class="image md:h-[480px] w-[720px] rounded-lg"
                 />
                 <div class="content">

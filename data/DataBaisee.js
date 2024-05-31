@@ -6,7 +6,6 @@ const baisee = [
   howto: 'วิธีใช้ : ',
   warning: 'คำเตือน : ห้ามรับประทาน',
   image: '/images/products/baisee/bs_detail2.png',
-  image_detail:'/images/products/baisee/bs_detail2.png',
   active: true
 },
     { 
@@ -17,7 +16,6 @@ const baisee = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/baisee/bs_detail6.png',
-      image_detail:'/images/products/baisee/bs_detail6.png',
       active: true
     },
     { id: '3',
@@ -27,7 +25,6 @@ const baisee = [
     howto: 'วิธีใช้ : ',
     warning: 'คำเตือน : ห้ามรับประทาน',
     image: '/images/products/baisee/bs_detail7.png',
-    image_detail:'/images/products/baisee/bs_detail7.png',
     active: true
   },
     { 
@@ -38,7 +35,6 @@ const baisee = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/baisee/bs_detail1.png',
-      image_detail:'/images/products/baisee/bs_detail1.png',
       active: false
     },
     {id: '5',
@@ -48,7 +44,6 @@ const baisee = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/baisee/bs_detail8.png',
-      image_detail:'/images/products/baisee/bs_detail8.png',
       active: false
     },
     { id: '6',
@@ -58,7 +53,6 @@ const baisee = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/baisee/bs_detail3.png',
-      image_detail:'/images/products/baisee/bs_detail3.png',
       active: false
     },
     { id: '7',
@@ -68,7 +62,6 @@ const baisee = [
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image: '/images/products/baisee/bs_detail4.png',
-      image_detail:'/images/products/baisee/bs_detail4.png',
       active: false
     },
     { id: '8',
@@ -78,7 +71,6 @@ const baisee = [
     howto: 'วิธีใช้ : ',
     warning: 'คำเตือน : ห้ามรับประทาน',
     image: '/images/products/baisee/bs_detail5.png',
-    image_detail:'/images/products/baisee/bs_detail5.png',
     active: false
   }
   ];

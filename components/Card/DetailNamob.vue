@@ -16,7 +16,7 @@
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div class="md:col-span-1" v-if="item">
-                <img :src="item.image_detail" class="rounded-lg w-full" />
+                <img :src="item.image" class="rounded-lg w-full" />
             </div>
             <div class="md:col-span-1 grid grid-cols-1 gap-10" v-if="item">
                 <div>
