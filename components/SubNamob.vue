@@ -1,19 +1,11 @@
 <template>
-    <div class="justify-center">
-        <div class="text-center text-[#0f4722] text-3xl font-bold mt-5">
-            น้ำอบไทย
-        </div>
-        <div class="flex justify-center items-center w-full h-[50px]">
-            <svg
-                class="w-[70%] h-auto"
-                height="50"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <line x1="0" y1="10" x2="100%" y2="10" />
-            </svg>
-        </div>
-        <div class="flex-wrap flex flex-rows p-10 justify-center gap-5">
+    <div class="p-4 md:p-10">
+        <p class="text-xl md:text-2xl font-bold text-[#0F4722] mb-2 md:mb-4">
+            สินค้าแนะนำ
+        </p>
+        <div
+            class="flex-wrap flex flex-rows rounded-xl p-5 justify-center gap-5 relative h-full pb-5"
+        >
             <div
                 v-for="(item, index) in namob.filter((e) => e.active == true)"
                 :key="index"
@@ -46,6 +38,16 @@
                 </div>
             </div>
         </div>
+        <div class="flex justify-center items-center mt-5">
+            <NuxtLink to="/MoreProduct/all_namob">
+                <button
+                    type="button"
+                    class="w-[140px] h-[40px] text-black hover:text-white border border-[#0f4722] hover:bg-[#0f4722] font-medium rounded-lg px-5 text-center me-2 mb-2"
+                >
+                    ดูสินค้าเพิ่มเติม
+                </button>
+            </NuxtLink>
+        </div>
     </div>
 </template>
 
@@ -57,9 +59,4 @@ const data = {
 }
 </script>
 
-<style scoped>
-line {
-    stroke: #0f4722;
-    stroke-width: 2;
-}
-</style>
+<style scoped></style>

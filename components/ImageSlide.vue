@@ -76,13 +76,6 @@ const items = [
 
 ::v-deep .swiper-button-next,
 ::v-deep .swiper-button-prev {
-    @apply text-[#0f4722];
-}
-
-@media (max-width: 768px) {
-    ::v-deep .swiper-button-next,
-    ::v-deep .swiper-button-prev {
-        @apply text-white;
-    }
+    @apply text-[white];
 }
 </style>

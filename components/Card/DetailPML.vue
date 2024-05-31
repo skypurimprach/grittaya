@@ -43,39 +43,36 @@
                         <a href="https://page.line.me/grittaya">
                             <button
                                 type="button"
-                                class="w-full md:w-[468px] text-white bg-[#0F4722] hover:bg-green-800 focus:ring-2 rounded-lg text-sm px-4 md:px-5 py-2.5 text-center mb-2"
+                                class="w-[360px] text-white bg-[#0F4722] hover:bg-green-800 focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                             >
                                 สั่งซื้อสินค้า
-                            </button>
-                        </a>
+                            </button></a
+                        >
                     </div>
-                    <div
-                        class="bg-white flex flex-col md:flex-row justify-center gap-2 md:gap-4"
-                    >
+                    <div class="bg-white flex justify-center">
                         <a
                             href="https://www.facebook.com/grittaya8?locale=th_TH"
                         >
                             <button
                                 type="button"
-                                class="w-full md:w-[230px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-4 md:px-5 py-2.5 text-center mb-2"
+                                class="w-[175px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                             >
                                 Facebook
-                            </button>
-                        </a>
+                            </button></a
+                        >
                         <a href="https://www.tiktok.com/@grittaya_official">
                             <button
                                 type="button"
-                                class="w-full md:w-[230px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-4 md:px-5 py-2.5 text-center mb-2"
+                                class="w-[175px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                             >
                                 Tiktok
-                            </button>
-                        </a>
+                            </button></a
+                        >
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <SubProduct />
 </template>
 
 <script setup lang="ts">

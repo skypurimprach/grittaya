@@ -1,7 +1,7 @@
 <template>
     <div>
         <CardDetailSKT />
-        <SubPML />
+        <SubSKT />
     </div>
 </template>
 

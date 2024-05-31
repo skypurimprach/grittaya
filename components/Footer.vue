@@ -1,6 +1,5 @@
 <template>
-    <div></div>
-    <div class="bg-[#0f4722] text-white w-full px-4 md:px-20">
+    <div class="bg-[#083718] text-white w-full px-4 md:px-20">
         <div
             class="flex flex-col md:flex-row justify-center items-center md:justify-between md:items-start lg:h-[120px]"
         >
@@ -88,7 +87,6 @@
         </div>
         <br />
     </div>
-    <div></div>
 </template>
 
 <script setup lang="ts"></script>

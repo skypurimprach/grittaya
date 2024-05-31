@@ -16,7 +16,12 @@
                 <div
                     class="flex-wrap bg-[#A2C3AD] flex flex-rows rounded-xl p-6 justify-center gap-5 relative w-full h-full pb-20 max-sm:pb-5"
                 >
-                    <div v-for="(item, index) in data.pml" :key="index">
+                    <div
+                        v-for="(item, index) in pml.filter(
+                            (e) => e.active == true,
+                        )"
+                        :key="index"
+                    >
                         <div
                             class="card-body bg-white border-gray-200 shadow rounded-xl w-[324px] h-[385px]"
                         >

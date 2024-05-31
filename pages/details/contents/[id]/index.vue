@@ -1,5 +1,5 @@
 <template>
-    <ContentDetail />
+    <CardContentDetail />
     <p class="Content text-center text-[#0f4722] text-3xl font-bold">
         บทความเพิ่มเติม
     </p>

@@ -4,9 +4,12 @@
             สินค้าแนะนำ
         </p>
         <div
-            class="flex-wrap flex flex-rows rounded-xl p-10 justify-center gap-5 relative h-full pb-20"
+            class="flex-wrap flex flex-rows rounded-xl p-5 justify-center gap-5 relative h-full pb-5"
         >
-            <div v-for="(item, index) in data.pml" :key="index">
+            <div
+                v-for="(item, index) in pml.filter((e) => e.active == false)"
+                :key="index"
+            >
                 <div
                     class="card-body bg-white border-gray-200 shadow rounded-xl w-[324px] h-[385px]"
                 >
@@ -34,6 +37,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="flex justify-center items-center mt-5">
+            <NuxtLink to="/MoreProduct/all_pml">
+                <button
+                    type="button"
+                    class="w-[140px] h-[40px] text-black hover:text-white border border-[#0f4722] hover:bg-[#0f4722] font-medium rounded-lg px-5 text-center me-2 mb-2"
+                >
+                    ดูสินค้าเพิ่มเติม
+                </button>
+            </NuxtLink>
         </div>
     </div>
 </template>

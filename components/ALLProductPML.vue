@@ -1,7 +1,7 @@
 <template>
     <div class="justify-center">
         <div class="text-center text-[#0f4722] text-3xl font-bold mt-5">
-            น้ำอบไทย
+            พวงมาลัย
         </div>
         <div class="flex justify-center items-center w-full h-[50px]">
             <svg

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#0f4722] h-[65px] t-0 w-full">
+    <div class="bg-[#083718] h-[65px] t-0 w-full">
         <div class="flex justify-between items-center h-full">
             <img src="/images/gritt-lay.png" class="w-48" />
             <div

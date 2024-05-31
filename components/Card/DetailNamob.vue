@@ -35,7 +35,7 @@
                         <a href="https://page.line.me/grittaya">
                             <button
                                 type="button"
-                                class="w-[468px] text-white bg-[#0F4722] hover:bg-green-800 focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                class="w-[360px] text-white bg-[#0F4722] hover:bg-green-800 focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                             >
                                 สั่งซื้อสินค้า
                             </button></a
@@ -47,7 +47,7 @@
                         >
                             <button
                                 type="button"
-                                class="w-[230px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                class="w-[175px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                             >
                                 Facebook
                             </button></a
@@ -55,7 +55,7 @@
                         <a href="https://www.tiktok.com/@grittaya_official">
                             <button
                                 type="button"
-                                class="w-[230px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                                class="w-[175px] text-[#0F4722] hover:text-white border border-[#0F4722] hover:bg-[#0F4722] focus:ring-2 rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                             >
                                 Tiktok
                             </button></a
@@ -77,7 +77,9 @@ const itemId = route.params.id
 const item = ref<any>()
 onMounted(() => {
     // ใช้ itemId เพื่อค้นหาข้อมูลสินค้าที่ตรงกับ ID ที่กำหนด
-    item.value = namob.find((item) => item.id === itemId)
+    const NamobItemId = Number(itemId)
+
+    item.value = namob.find((item) => item.id === NamobItemId)
 })
 </script>
 

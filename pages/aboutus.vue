@@ -9,7 +9,7 @@
                 class="image md:h-[480px] w-[720px] rounded-lg"
             />
             <div class="content">
-                <p class="text-black mt-5 indent-10 mb-5">
+                <p class="text-black mt-2 indent-10 mb-2 font-medium p-10">
                     กฤตธยา (Grittaya) เป็นแบรนด์ในเครือของบริษัท กริท
                     คอนซัลแทนท์ จำกัด โดยการก่อตั้งของ CEO คุณชิดชลธาร ชัยสิงห์
                     เมื่อปีปลายปี 2565 จนถึงปัจจุบัน
@@ -34,7 +34,7 @@
                     น้ำอบน้ำปรุงสูตรชาววัง และสูตรพิเศษของกฤตธยา งานวาดลายเส้น
                     ธงกฐิน บริการเปิดภูมิบ้าน ตามหลักโหรศาสตร์
                 </p>
-                <div class="contact mt-10">
+                <div class="contact">
                     <Contact />
                 </div>
             </div>

@@ -6,8 +6,8 @@ const skt = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/skt/Skt1.png',
-      image_detail: '/images/products/skt/Skt1.png',
+      image: '/images/products/skt/skt1.png',
+      image_detail: '/images/products/skt/skt1.png',
       active: false
 
     },
@@ -18,8 +18,8 @@ const skt = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/skt/Skt1.png',
-      image_detail: '/images/products/skt/Skt2.png',
+      image: '/images/products/skt/skt2.png',
+      image_detail: '/images/products/skt/skt2.png',
       active: false
     
     },{
@@ -29,8 +29,8 @@ const skt = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/skt/Skt3.png',
-      image_detail: '/images/products/skt/Skt3.png',
+      image: '/images/products/skt/skt3.png',
+      image_detail: '/images/products/skt/skt3.png',
       active: true
     
     },{
@@ -40,22 +40,60 @@ const skt = [
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/skt/Skt4.png',
-      image_detail: '/images/products/skt/Skt4.png',
+      image: '/images/products/skt/skt4.png',
+      image_detail: '/images/products/skt/skt4.png',
       active: true
     
-    },{
+    },
+    {
       id:'5',
       title: 'สังฆทานแบบที่ 5', 
       content: 'แบบที่ 5',
       detail:'รายละเอียด',
       howto: 'วิธีใช้ : ',
       warning: 'คำเตือน : ห้ามรับประทาน',
-      image: '/images/products/skt/Skt5.png',
-      image_detail: '/images/products/skt/Skt5.png',
+      image: '/images/products/skt/skt5.png',
+      image_detail: '/images/products/skt/skt5.png',
       active: true
     
     },
+    {
+      id:'6',
+      title: 'สังฆทานแบบที่ 6', 
+      content: 'แบบที่ 5',
+      detail:'รายละเอียด',
+      howto: 'วิธีใช้ : ',
+      warning: 'คำเตือน : ห้ามรับประทาน',
+      image: '/images/products/skt/skt6.png',
+      image_detail: '/images/products/skt/skt6.png',
+      active: false
+    
+    },
+    {
+      id:'7',
+      title: 'สังฆทานแบบที่ 7', 
+      content: 'แบบที่ 7',
+      detail:'รายละเอียด',
+      howto: 'วิธีใช้ : ',
+      warning: 'คำเตือน : ห้ามรับประทาน',
+      image: '/images/products/skt/skt7.png',
+      image_detail: '/images/products/skt/skt7.png',
+      active: false
+    
+    },
+    {
+      id:'8',
+      title: 'สังฆทานแบบที่ 8', 
+      content: 'แบบที่ 8',
+      detail:'รายละเอียด',
+      howto: 'วิธีใช้ : ',
+      warning: 'คำเตือน : ห้ามรับประทาน',
+      image: '/images/products/skt/skt8.png',
+      image_detail: '/images/products/skt/skt8.png',
+      active: false
+    
+    },
+
   ];
   
   export const getDataSKT = () => {

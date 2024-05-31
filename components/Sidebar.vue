@@ -7,7 +7,7 @@
             class="modal-overlay absolute top-0 w-full h-full bg-black/40"
             @click="store.$state.openSidebar = !store.$state.openSidebar"
         ></div>
-        <div class="w-[300px] absolute top-0 right-0 bg-[#0f4722] h-full">
+        <div class="w-[300px] absolute top-0 right-0 bg-[#083718] h-full">
             <div class="flex flex-col">
                 <img src="/images/gritt.png" class="w-32 mt-4 self-center" />
 

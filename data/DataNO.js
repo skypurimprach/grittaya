@@ -13,12 +13,12 @@ const namob = [
     {
       id: 2,
       title: 'น้ำอบสูตรชาววัง', 
-      content:'testtt',
+      content:'',
       detail: 'ฝาเหลือง', 
       howto: 'วิธีใช้ : ใช้ผสมน้ำเปล่าในอัตรส่วน 1:1 เพื่อสรงน้ำพระ, รดน้ำดำหัวผู้ใหญ่ หรือปะพรมร่างกาย เพื่อความสดชื่น',
       warning: 'คำเตือน : ห้ามรับประทาน',
       image:'/images/products/namob/no2.png',
-      image_detail: '/images/namob/no2.png',
+      image_detail: '/images/products/namob/no2.png',
       active: true
     },   
     {
@@ -30,7 +30,7 @@ const namob = [
       warning: '',
       image:'/images/ComingSoon.png',
       image_detail: '/images/ComingSoon.png',
-      active: true
+      active: false
     },
   ];
   
