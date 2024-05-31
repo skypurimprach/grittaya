@@ -7,7 +7,7 @@
             <div
                 class="flex flex-col items-center md:flex-row gap-4 mt-2 h-full"
             >
-                <img src="/images/gritt.png" width="120" />
+                <img src="/images/logos/gritt.png" width="120" />
                 <div
                     class="mt-16 max-md:mt-0 text-center md:text-left h-full max-md:flex-col"
                 >

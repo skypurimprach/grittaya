@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#083718] h-[65px] t-0 w-full">
         <div class="flex justify-between items-center h-full">
-            <img src="/images/gritt-lay.png" class="w-48" />
+            <img src="/images/logos/gritt-lay.png" class="w-48" />
             <div
                 class="text-white block md:hidden mr-8 cursor-pointer"
                 @click="store.$state.openSidebar = !store.$state.openSidebar"

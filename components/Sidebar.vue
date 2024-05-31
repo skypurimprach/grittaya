@@ -9,7 +9,10 @@
         ></div>
         <div class="w-[300px] absolute top-0 right-0 bg-[#083718] h-full">
             <div class="flex flex-col">
-                <img src="/images/gritt.png" class="w-32 mt-4 self-center" />
+                <img
+                    src="/images/logos/gritt.png"
+                    class="w-32 mt-4 self-center"
+                />
 
                 <div class="flex flex-col text-center gap-10 text-xl mt-10">
                     <nuxt-link

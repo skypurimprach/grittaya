@@ -1,7 +1,7 @@
 <template>
     <div
         class="p-4 md:p-10 flex justify-items-center flex-col bg-cover bg-center"
-        style="background-image: url('/images/grittaya_cover2.png')"
+        style="background-image: url('/images/logos/grittaya_cover2.png')"
     >
         <div>
             <h1
@@ -11,7 +11,7 @@
             </h1>
             <div class="img flex flex-col items-center z-10 mt">
                 <img
-                    src="/images/grittaya.jpg"
+                    src="/images/logos/grittaya.jpg"
                     class="image md:h-[480px] w-[720px] rounded-lg"
                 />
                 <div
