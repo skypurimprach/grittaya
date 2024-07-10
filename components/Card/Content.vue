@@ -1,6 +1,8 @@
 <template>
     <div class="flex flex-wrap justify-center gap-10">
-        <div v-for="(item, index) in content" :key="index">
+        <div
+        v-for="(item, index) in data.content" :key="index"
+        >
             <div
                 class="card-body border-gray-200 shadow rounded-xl w-[330px] h-[447px]"
             >
